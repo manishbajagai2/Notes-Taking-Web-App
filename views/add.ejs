@@ -1,0 +1,21 @@
+<%- include('partials/header'); -%>
+
+<h1>Add your task content here</h1>
+
+<form class="item" action="/add" method="post">
+  <div class="form-group">
+        <label>Task Name</label>
+        <input class="form-control" type="text" name="taskName">
+        <label>Task Description</label>
+        <textarea class="form-control" name="taskBody" rows="4" cols="30"></textarea>
+        <label>Created By-</label>
+        <input class="form-control" type="text" name="creator" >
+        <label>Created at-</label>
+        <input class="form-control" type="text" name="currentTime" value = "<%= new Date().toLocaleTimeString("en-US", {hour: '2-digit', minute:'2-digit', second:'2-digit'}); %>">
+      </div>
+      <button class="btn btn-primary" type="submit" name="button">Add the above</button>
+</form>
+
+
+
+<%- include('partials/footer'); -%>

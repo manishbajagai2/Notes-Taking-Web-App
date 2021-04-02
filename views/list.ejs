@@ -1,0 +1,16 @@
+
+<%- include('partials/header'); -%>
+
+<h1>Here are the list of tasks created</h1>
+
+<% tasks.forEach(function(task){ %>
+<h3> <%= task.name %> </h3>
+<form action="/delete2" method="post">
+<div >
+  <input type="checkbox" name="checkbox" value="<%=task._id%>"  onChange="this.form.submit()">
+  Click to delete
+</div>
+</form>
+<% }) %>
+
+<%- include('partials/footer'); -%>
