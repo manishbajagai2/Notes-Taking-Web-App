@@ -39,3 +39,7 @@ This is a To Do web based application. Here, a user can record his/her day-to-da
 - lodash
 - mongoose
 - Bootstrap
+
+## What the app looks like
+
+![alt text](http://https://github.com/manishbajagai2/To-Do-App/blob/main/look.png/to/img.png)
