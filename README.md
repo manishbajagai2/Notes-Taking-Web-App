@@ -42,4 +42,4 @@ This is a To Do web based application. Here, a user can record his/her day-to-da
 
 ## What the app looks like
 
-![alt text](http://https://github.com/manishbajagai2/To-Do-App/blob/main/look.png)
+![alt text](https://github.com/manishbajagai2/To-Do-App/blob/main/look.png)
