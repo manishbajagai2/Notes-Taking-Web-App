@@ -1,6 +1,6 @@
-# To-Do-App
+# Notes Taking Web App
 
-This is a To Do web based application. Here, a user can record his/her day-to-day activities or plan out the work according to the list that is made out using this app. Suitable for gathering information anytime, anywhere online.
+This is another version of like To Do web based application. Here, a user can record his/her day-to-day activities or plan out the work according to the list that is made out using this app. Suitable for gathering information anytime, anywhere online.
 
 ## How to run the app
 
@@ -43,7 +43,3 @@ This is a To Do web based application. Here, a user can record his/her day-to-da
 ## What the app looks like
 
 ![alt text](https://github.com/manishbajagai2/To-Do-App/blob/main/interface.png)
-
-## Live Project URL
-
-https://still-gorge-60280.herokuapp.com/
