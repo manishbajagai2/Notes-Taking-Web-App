@@ -15,7 +15,8 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-manish:Manish2000@cluster0.3hgt2.mongodb.net/taskDB", {
+
+mongoose.connect("mongodb+srv://manishbajagai:Manish@2000@notecluster.ttq4m.mongodb.net/taskDB", {
   useNewUrlParser: true,useUnifiedTopology: true
 });
 
